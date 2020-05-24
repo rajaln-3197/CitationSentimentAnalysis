@@ -1,7 +1,12 @@
-# CitationSentimentAnalysis
-Predicating sentiment expressed in a citation sentence
+# Citation Sentiment Analysis
 
-Achieved 2% improvement in the overall accuracy of the predictions of the sentiment expressed in a citation sentence using Naïve Bayes with n-grams as features.
-Utilized NLP features such as lexicons, Word2Vec, etc in combination to train models such as LSTM and SVM using RBF kernel in an attempt to improve the performance on the citation sentiment corpus.
+We implemented the deep learning model of LSTM along with two classication methods of SVM and Naive Bayes to predicat the sentiment expressed in a citation sentence. 
+
+The features used were: 
+1)    N-grams 
+2)    Part of Speech Tags 
+3)    Lemmatization 
+4)    Word2Vec
+5)    Lexicons
 
 Source: https://cl.awaisathar.com/citation-sentiment-corpus/
